@@ -50,7 +50,7 @@ body {
 }
 
 .header__box {
-  background-image: url(../public/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+  background-image: url(../public/jake-weirick-Q_RBVFFXR_g-unsplash.jpg);
   background-position: center;
   background-size: cover;
   padding: 3rem;
@@ -60,10 +60,6 @@ body {
   justify-content: center;
   gap: 7rem;
   height: max-content;
-
-  /* margin-bottom: 2rem; */
-  /* padding-bottom: 2rem; */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.87);
 }
 
 .image {
@@ -74,4 +70,13 @@ body {
 .heading {
   font-size: 6.5rem;
   font-weight: 400;
+}
+
+.skills__section {
+  position: relative;
+}
+
+.project__img {
+  height: 28rem;
+  width: 50rem;
 }
