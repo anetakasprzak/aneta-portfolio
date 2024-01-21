@@ -1,8 +1,23 @@
 :root {
   font-family: "Raleway", sans-serif;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --text: rgba(255, 255, 255, 0.871);
+  --background: #242424;
+  --heading: rgba(255, 255, 255, 0.871);
+  --img: url("octavian-rosca-UfCYo7zHyY8-unsplash-modified.jpg");
+  --section: #000;
+  --white: rgba(255, 255, 255);
+  --card: #242424;
+  --filter: grayscale(100%);
+}
+
+[data-theme="light"] {
+  --text: #242424;
+  --background: rgba(255, 255, 255, 0.871);
+  --img: url("octavian-rosca-UfCYo7zHyY8-unsplash.jpg");
+  --section: #89344eea;
+  --card: #fff;
+  --filter: none;
 }
 
 *,
@@ -33,10 +48,20 @@ video {
   height: auto;
 }
 
+.wrapper {
+  color: var(--text);
+  background-color: var(--background);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+}
+
 .nav {
   display: flex;
   justify-content: flex-end;
-  padding: 1rem 3rem 1rem 1rem;
   gap: 2.5rem;
 }
 
@@ -59,8 +84,22 @@ video {
   transform: scale(1.1);
 }
 
+.theme__box {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+:is(.theme__box) svg {
+  fill: var(--text);
+}
+
+.theme__text {
+  color: var(--text);
+}
+
 .header__box {
-  background-image: url(../public/jake-weirick-Q_RBVFFXR_g-unsplash.jpg);
+  background-image: var(--img);
   background-position: center;
   background-size: cover;
   padding: 3rem;
@@ -80,6 +119,7 @@ video {
 .heading {
   font-size: 6.5rem;
   font-weight: 400;
+  color: var(--heading);
 }
 
 .skills__section {
@@ -91,17 +131,18 @@ video {
 
 .skill {
   font-size: 10rem;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--text);
 }
 
 .projects__section {
-  background-color: #000;
+  background-color: var(--section);
   padding: 3rem;
 }
 
 .portfolio__heading {
   padding: 0 0 3rem 3rem;
   font-size: 5rem;
+  color: var(--white);
 }
 
 .flex--wrap {
@@ -112,14 +153,21 @@ video {
 }
 
 .project__card {
-  background-color: #242424;
-  max-width: 45rem;
+  background-color: var(--card);
+  max-width: 34rem;
   border-radius: 0.8rem;
   padding: 1.4rem;
 
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project__card a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--text);
 }
 
 .project__img {
