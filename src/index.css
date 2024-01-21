@@ -33,6 +33,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -58,7 +59,7 @@ video {
 .nav-container {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2.5rem;
+  padding: 1.25em 2.5rem;
 }
 
 .nav {
@@ -126,7 +127,7 @@ video {
 
 .about-me__section {
   font-size: 2rem;
-  padding: 5rem;
+  padding: 6rem 14rem;
   border-bottom: 1px solid var(--border);
   display: flex;
   flex-direction: column;
@@ -151,7 +152,7 @@ video {
 
 .projects__section {
   background-color: var(--section);
-  padding: 3rem;
+  padding: 5rem 5rem 15rem 5rem;
 }
 
 .portfolio__heading {
@@ -204,9 +205,51 @@ video {
 }
 
 .contact__section {
-  padding: 3rem;
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact__text {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact__email {
+  color: var(--text);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.contact__email:hover {
+  border-bottom: 1px solid var(--text);
+}
+
+.contact__links-box {
+  display: flex;
+  gap: 2rem;
   font-size: 2.5rem;
+}
+
+.contact__links-box a {
+  text-decoration: none;
+}
+
+.contact__links-box i {
+  cursor: pointer;
+  color: var(--text);
+}
+
+@media screen and (max-width: 63em) {
+  .about-me__section {
+    font-size: 1.8rem;
+    padding: 5rem 9rem;
+    gap: 1.5rem;
+  }
+
+  .skill {
+    font-size: 9rem;
+  }
 }
