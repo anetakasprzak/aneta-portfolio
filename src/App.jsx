@@ -29,13 +29,13 @@ export default function App() {
         </div>
         <nav className="nav">
           <p className="nav__link">
-            <a href="#projects__section">About me</a>
+            <a href="#about-me__section">About me</a>
           </p>
           <p className="nav__link">
             <a href="#projects__section">Portfolio</a>
           </p>
           <p className="nav__link">
-            <a href="#projects__section">Contact</a>
+            <a href="#contact__section">Contact</a>
           </p>
         </nav>
       </div>
@@ -46,8 +46,26 @@ export default function App() {
           src="../public/20240113_105759 (1).jpg"
           alt="aneta image"
         />
+
         <h1 className="heading">Hello World, I&apos;m Aneta Kasprzak.</h1>
       </header>
+
+      <section className="about-me__section" id="about-me__section">
+        <p>
+          During one of the lockdowns I found my passion for coding - started
+          with playful exploration of HTML and CSS. The magic of coding
+          captivated me, leading me to leave my hospitality job and plunge into
+          the world of development. <br />I did JavaScript and React courses,
+          spent countless hours making side projects to practice and focus to
+          turn my passion into full time job as a React Developer.
+        </p>
+        <p>
+          Beyond the screen, you&apos;ll find me in the kitchen, cooking and
+          eating is my second big passion.
+          <br /> When I&apos;m not sitting at my desk, I&apos;m lifting weights
+          at the gym.
+        </p>
+      </section>
 
       <section className="skills__section">
         <p className="skill">
@@ -75,10 +93,6 @@ export default function App() {
         <p className="skill">
           <i className="devicon-figma-plain"></i>
         </p>
-      </section>
-
-      <section className="about-me__section">
-        <p className="about-me__text"></p>
       </section>
 
       <section className="projects__section" id="projects__section">
@@ -237,6 +251,10 @@ export default function App() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="contact__section" id="contact__section">
+        <p className="contact__text">Contact me</p>
       </section>
     </div>
   );
