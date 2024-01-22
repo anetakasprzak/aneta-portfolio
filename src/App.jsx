@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import Navigation from "./components/Navigation";
-import Header from "./components/Header";
+import Navigation from "./components/Navigation/Navigation";
+import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
 export default function App() {
   const [isLightMode, setIsLightMode] = useState(false);

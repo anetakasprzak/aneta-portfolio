@@ -1,3 +1,6 @@
+/* eslint react/prop-types: 0 */
+import "./Projects.css";
+
 const myProjects = [
   {
     id: 21,

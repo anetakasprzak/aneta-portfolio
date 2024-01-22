@@ -1,3 +1,7 @@
+/* eslint react/prop-types: 0 */
+
+import "./Navigation.css";
+
 export default function Navigation({ isLightMode, setIsLightMode }) {
   return (
     <div className="nav-container">

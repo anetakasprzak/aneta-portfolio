@@ -1,0 +1,30 @@
+.about-me__section {
+  font-size: 2rem;
+  padding: 6rem 14rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: var(--text);
+}
+
+@media screen and (max-width: 63em) {
+  .about-me__section {
+    font-size: 1.8rem;
+    padding: 5rem 9rem;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 50.25em) {
+  .about-me__section {
+    padding: 4.5rem 6rem;
+  }
+}
+
+@media screen and (max-width: 34.37em) {
+  .about-me__section {
+    font-size: 1.6rem;
+    padding: 4.5rem 4rem;
+  }
+}
