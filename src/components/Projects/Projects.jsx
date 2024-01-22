@@ -4,13 +4,13 @@ import "./Projects.css";
 const myProjects = [
   {
     id: 21,
-    img: "../public/Screenshot 2024-01-20 at 15.23.48.png",
+    img: "./assets/advice-generator-screenshot.png",
     details: ["API", "Input validation", "Error handling", "Responsive design"],
     codeUrl: "https://github.com/anetakasprzak/FM-advice-generator-app-react",
   },
   {
     id: 22,
-    img: "../public/Screenshot 2024-01-20 at 15.27.59.png",
+    img: "./assets/component-with-signup-form-screenshot.png",
     details: [
       "React Hook Form",
       "Input validation",
@@ -23,7 +23,7 @@ const myProjects = [
   },
   {
     id: 23,
-    img: "Screenshot 2024-01-20 at 15.29.30.png",
+    img: "./assets/fylo-data-storage-component-screenshot.png",
     details: [
       "Range input",
       "Custom icons",
@@ -36,7 +36,7 @@ const myProjects = [
 
   {
     id: 24,
-    img: "Screenshot 2024-01-20 at 15.31.27.png",
+    img: "./assets/github-user-search-app-screenshot.png",
     details: [
       "API",
       "Search input",
@@ -49,7 +49,7 @@ const myProjects = [
   },
   {
     id: 25,
-    img: "Screenshot 2024-01-20 at 15.38.47.png",
+    img: "./assets/your-shopping-list-screenshot.png",
     details: [
       "CRUD operations",
       "Input data",
@@ -60,7 +60,7 @@ const myProjects = [
   },
   {
     id: 26,
-    img: "Screenshot 2024-01-20 at 15.33.25.png",
+    img: "./assets/interactive-card-details-form-screenshot.png",
     details: [
       "React Hook Form",
       "Input validation",
@@ -74,7 +74,7 @@ const myProjects = [
   },
   {
     id: 27,
-    img: "Screenshot 2024-01-20 at 15.36.31.png",
+    img: "./assets/countries-api-screenshot.png",
     details: [
       "API",
       "Filtering",
@@ -86,7 +86,7 @@ const myProjects = [
   },
   {
     id: 28,
-    img: "Screenshot 2024-01-20 at 15.35.06.png",
+    img: "./assets/newsletter-sign-up-with-success-screenshot.png",
     details: [
       "React Hook Form",
       "Input validation",

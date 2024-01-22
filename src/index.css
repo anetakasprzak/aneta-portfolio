@@ -4,7 +4,7 @@
   --text: rgba(255, 255, 255, 0.871);
   --background: #242424;
   --heading: rgba(255, 255, 255, 0.871);
-  --img: url("octavian-rosca-UfCYo7zHyY8-unsplash-modified.jpg");
+  --img: url("/assets/hero-modified.jpg");
   --section: #000;
   --white: rgba(255, 255, 255);
   --card: #242424;
@@ -15,7 +15,7 @@
 [data-theme="light"] {
   --text: #242424;
   --background: rgba(255, 255, 255, 0.871);
-  --img: url("octavian-rosca-UfCYo7zHyY8-unsplash.jpg");
+  --img: url("/assets/hero.jpg");
   --section: #89344eea;
   --card: #fff;
   --filter: none;

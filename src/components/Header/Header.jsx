@@ -3,7 +3,11 @@ import "./Header.css";
 export default function Header() {
   return (
     <header className="header__box">
-      <img className="image" src="20240113_105759 (1).jpg" alt="aneta image" />
+      <img
+        className="image"
+        src="./assets/profile-picture.jpg"
+        alt="aneta image"
+      />
 
       <h1 className="heading">
         Hello World,
