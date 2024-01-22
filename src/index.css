@@ -141,7 +141,6 @@ video {
   flex-wrap: wrap;
   gap: 3rem;
   padding: 10rem 0;
-  flex: 0 0 50%;
   border-bottom: 1px solid var(--border);
 }
 
@@ -249,7 +248,162 @@ video {
     gap: 1.5rem;
   }
 
+  .skills__section {
+    padding: 8rem 0;
+  }
+
   .skill {
     font-size: 9rem;
+  }
+
+  .projects__section {
+    padding: 5rem 5rem 11rem 5rem;
+  }
+
+  .contact__section {
+    padding: 5rem 6rem;
+  }
+}
+
+@media screen and (max-width: 50.25em) {
+  .nav-container {
+    padding: 1em 2.5rem;
+  }
+
+  .image {
+    height: 50rem;
+  }
+
+  .heading {
+    font-size: 5.8rem;
+  }
+
+  .about-me__section {
+    padding: 4.5rem 6rem;
+  }
+
+  .skills__section {
+    padding: 5rem 0;
+  }
+
+  .skill {
+    font-size: 7.5rem;
+  }
+
+  .projects__section {
+    padding: 4rem 5rem 8rem 5rem;
+  }
+
+  .portfolio__heading {
+    padding: 0 0 3rem 2rem;
+    font-size: 4rem;
+  }
+
+  .flex--wrap {
+    gap: 3.5rem;
+  }
+
+  .project__card {
+    max-width: 30rem;
+  }
+
+  .contact__section {
+    padding: 4rem 6rem;
+  }
+}
+
+@media screen and (max-width: 50.25em) {
+  .nav__link {
+    font-size: 1.8rem;
+  }
+
+  .image {
+    height: 45rem;
+  }
+
+  .heading {
+    font-size: 5rem;
+  }
+
+  .skills__section {
+    padding: 4.5rem 0;
+  }
+
+  .skill {
+    font-size: 6.8rem;
+  }
+
+  .projects__section {
+    padding: 4rem 2rem 8rem 2rem;
+  }
+
+  .project__card {
+    max-width: 28rem;
+  }
+
+  .contact__section {
+    padding: 4rem 3rem;
+  }
+}
+
+@media screen and (max-width: 34.37em) {
+  .nav-container {
+    padding: 1.5rem 2rem;
+  }
+
+  .nav {
+    gap: 2rem;
+  }
+
+  .nav__link {
+    font-size: 1.6rem;
+  }
+
+  .header__box {
+    padding: 2.5rem;
+    gap: 5rem;
+  }
+
+  .image {
+    height: 35rem;
+  }
+
+  .heading {
+    font-size: 3.5rem;
+  }
+
+  .about-me__section {
+    font-size: 1.6rem;
+    padding: 4.5rem 4rem;
+  }
+
+  .skills__section {
+    padding: 3.8rem 1rem;
+  }
+
+  .skill {
+    font-size: 6rem;
+  }
+
+  .projects__section {
+    padding: 4rem 2rem 6rem 2rem;
+  }
+
+  .contact__section {
+    padding: 4rem 3rem;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .contact__text {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .contact__links-box {
+    gap: 2rem;
+    font-size: 3.2rem;
   }
 }
