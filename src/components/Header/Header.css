@@ -22,7 +22,7 @@
   color: var(--heading);
 }
 
-@media screen and (max-width: 50.25em) {
+@media screen and (max-width: 63em) {
   .image {
     height: 50rem;
   }
@@ -45,11 +45,25 @@
 @media screen and (max-width: 34.37em) {
   .header__box {
     padding: 2.5rem;
-    gap: 4.5rem;
+    gap: 3rem;
   }
 
   .image {
     height: 35rem;
+  }
+
+  .heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 25.62em) {
+  .header__box {
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+  .image {
+    height: 28rem;
   }
 
   .heading {

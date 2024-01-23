@@ -47,9 +47,6 @@
   .nav-container {
     padding: 1em 2.5rem;
   }
-}
-
-@media screen and (max-width: 50.25em) {
   .nav__link {
     font-size: 1.8rem;
   }
@@ -66,5 +63,27 @@
 
   .nav__link {
     font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 25.62em) {
+  .nav-container {
+    padding: 1.2rem 1.3rem;
+  }
+
+  .nav {
+    gap: 1.5rem;
+  }
+
+  .nav__link {
+    font-size: 1.4rem;
+  }
+
+  .theme__box {
+    gap: 0.1rem;
+  }
+
+  .theme__text {
+    font-size: 1.4rem;
   }
 }

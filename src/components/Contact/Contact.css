@@ -44,12 +44,6 @@
 
 @media screen and (max-width: 50.25em) {
   .contact__section {
-    padding: 4rem 6rem;
-  }
-}
-
-@media screen and (max-width: 50.25em) {
-  .contact__section {
     padding: 4rem 3rem;
   }
 }
@@ -71,5 +65,17 @@
   .contact__links-box {
     gap: 2rem;
     font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 25.62em) {
+  .contact__section {
+    padding: 3.5rem 2rem;
+    gap: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .contact__text {
+    font-size: 1.8rem;
   }
 }

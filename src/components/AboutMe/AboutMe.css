@@ -28,3 +28,10 @@
     padding: 4.5rem 4rem;
   }
 }
+
+@media screen and (max-width: 25.62em) {
+  .about-me__section {
+    font-size: 1.6rem;
+    padding: 3rem 2.6rem;
+  }
+}

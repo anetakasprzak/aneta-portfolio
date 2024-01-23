@@ -77,7 +77,7 @@
   }
 }
 
-@media screen and (max-width: 50.25em) {
+@media screen and (max-width: 41.25em) {
   .projects__section {
     padding: 4rem 2rem 8rem 2rem;
   }
@@ -90,5 +90,21 @@
 @media screen and (max-width: 34.37em) {
   .projects__section {
     padding: 4rem 2rem 6rem 2rem;
+  }
+}
+
+@media screen and (max-width: 25.62em) {
+  .projects__section {
+    padding: 3rem 1.8rem 5rem 1.8rem;
+  }
+
+  .portfolio__heading {
+    padding: 0 0 2rem 2rem;
+    font-size: 3rem;
+  }
+
+  .project__card {
+    max-width: 26rem;
+    font-size: 1.4rem;
   }
 }
