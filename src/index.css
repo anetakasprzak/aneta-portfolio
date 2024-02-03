@@ -2,24 +2,26 @@
   font-family: "Raleway", sans-serif;
 
   --text: rgba(255, 255, 255, 0.871);
-  --background: #242424;
+  --background: rgb(36, 36, 36);
   --heading: rgba(255, 255, 255, 0.871);
   --img: url("/assets/hero-modified.jpg");
   --section: #000;
   --white: rgba(255, 255, 255);
-  --card: #242424;
+  --card: rgb(36, 36, 36);
   --filter: grayscale(100%);
-  --border: #393939;
+  --border: rgb(57, 57, 57);
+  --nav: rgba(36, 36, 36, 0.95);
 }
 
 [data-theme="light"] {
   --text: #242424;
-  --background: rgba(255, 255, 255, 0.871);
+  --background: rgba(255, 255, 255, 0.9);
   --img: url("/assets/hero.jpg");
   --section: #89344eea;
-  --card: #fff;
+  --card: rgb(255, 255, 255);
   --filter: none;
-  --border: #e8e8e8;
+  --border: rgb(232, 232, 232);
+  --nav: rgba(255, 255, 255, 0.95);
 }
 
 *,
