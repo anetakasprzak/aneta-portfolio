@@ -3,6 +3,26 @@ import "./Projects.css";
 
 const myProjects = [
   {
+    id: 20,
+    img: "./assets/single-page-design-portfolio-2.png",
+    details: ["Form", "Modal", "Grid", "Responsive design"],
+    codeUrl:
+      "https://github.com/anetakasprzak/FM-single-page-design-portfolio-react",
+  },
+  {
+    id: 22,
+    img: "./assets/component-with-signup-form-screenshot.png",
+    details: [
+      "React Hook Form",
+      "Input validation",
+      "Error handling",
+      "Success message",
+      "Responsive design",
+    ],
+    codeUrl:
+      "https://github.com/anetakasprzak/FM-component-with-signup-form-react",
+  },
+  {
     id: 21,
     img: "./assets/advice-generator-screenshot.png",
     details: ["API", "Input validation", "Error handling", "Responsive design"],
