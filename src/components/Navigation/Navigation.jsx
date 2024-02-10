@@ -4,7 +4,7 @@ import "./Navigation.css";
 
 export default function Navigation({ isLightMode, setIsLightMode }) {
   return (
-    <div className="nav-container">
+    <nav className="nav-container">
       <div
         className="theme__box nav__link"
         onClick={() => setIsLightMode((light) => !light)}
@@ -27,17 +27,17 @@ export default function Navigation({ isLightMode, setIsLightMode }) {
           )}
         </div>
       </div>
-      <nav className="nav">
-        <p className="nav__link">
+      <ul className="nav">
+        <li className="nav__link">
           <a href="#about-me__section">About me</a>
-        </p>
-        <p className="nav__link">
+        </li>
+        <li className="nav__link">
           <a href="#projects__section">Portfolio</a>
-        </p>
-        <p className="nav__link">
+        </li>
+        <li className="nav__link">
           <a href="#contact__section">Contact</a>
-        </p>
-      </nav>
-    </div>
+        </li>
+      </ul>
+    </nav>
   );
 }
