@@ -29,19 +29,6 @@ const myProjects = [
     codeUrl: "https://github.com/anetakasprzak/FM-advice-generator-app-react",
   },
   {
-    id: 22,
-    img: "./assets/component-with-signup-form-screenshot.png",
-    details: [
-      "React Hook Form",
-      "Input validation",
-      "Error handling",
-      "Success message",
-      "Responsive design",
-    ],
-    codeUrl:
-      "https://github.com/anetakasprzak/FM-component-with-signup-form-react",
-  },
-  {
     id: 23,
     img: "./assets/fylo-data-storage-component-screenshot.png",
     details: [
