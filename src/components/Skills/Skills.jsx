@@ -19,30 +19,6 @@ export default function Skills() {
           <i className={skill.icon}></i>
         </p>
       ))}
-      {/* <p className="skill">
-        <i className="devicon-html5-plain-wordmark"></i>
-      </p>
-      <p className="skill">
-        <i className="devicon-css3-plain-wordmark"></i>
-      </p>
-      <p className="skill">
-        <i className="devicon-sass-original"></i>
-      </p>
-      <p className="skill">
-        <i className="devicon-javascript-plain"></i>
-      </p>
-      <p className="skill">
-        <i className="devicon-react-original-wordmark"></i>
-      </p>
-      <p className="skill">
-        <i className="devicon-vscode-plain-wordmark"></i>
-      </p>
-      <p className="skill">
-        <i className="devicon-github-original-wordmark"></i>
-      </p>
-      <p className="skill">
-        <i className="devicon-figma-plain"></i>
-      </p> */}
     </section>
   );
 }
