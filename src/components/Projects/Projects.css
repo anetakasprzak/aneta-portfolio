@@ -46,6 +46,7 @@
 
 .view-code {
   transition: all 0.2s;
+  display: inline-block;
 }
 
 .view-code:hover {
