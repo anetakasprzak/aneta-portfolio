@@ -3,6 +3,45 @@ import "./Projects.css";
 
 const myProjects = [
   {
+    id: 19,
+    img: "./assets/photosnap-multipage.png",
+    details: [
+      "React Hook Form",
+      "Mobile Navigation",
+      "Grid",
+      "Responsive design",
+      "Router",
+    ],
+    codeUrl: "https://github.com/anetakasprzak/FM-photosnap-multi-page-website",
+  },
+  {
+    id: 24,
+    img: "./assets/github-user-search-app-screenshot.png",
+    details: [
+      "API",
+      "Search input",
+      "Loading state",
+      "Error state",
+      "Dark/Light mode",
+      "Responsive design",
+    ],
+    codeUrl: "https://github.com/anetakasprzak/FM-github-user-search-app-react",
+  },
+  {
+    id: 28,
+    img: "./assets/newsletter-sign-up-with-success-screenshot.png",
+    details: [
+      "React Hook Form",
+      "Input validation",
+      "Error handling",
+      "Success message",
+      "Dynamic data",
+      "Responsive design",
+    ],
+    codeUrl:
+      "https://github.com/anetakasprzak/FM-newsletter-sign-up-with-success-message",
+  },
+  {
     id: 20,
     img: "./assets/single-page-design-portfolio-2.png",
     details: ["Form", "Modal", "Grid", "Responsive design"],
@@ -39,20 +78,6 @@ const myProjects = [
     ],
     codeUrl:
       "https://github.com/anetakasprzak/FM-fylo-data-storage-component-react",
-  },
-
-  {
-    id: 24,
-    img: "./assets/github-user-search-app-screenshot.png",
-    details: [
-      "API",
-      "Search input",
-      "Loading state",
-      "Error state",
-      "Dark/Light mode",
-      "Responsive design",
-    ],
-    codeUrl: "https://github.com/anetakasprzak/FM-github-user-search-app-react",
   },
   {
     id: 25,
@@ -91,20 +116,6 @@ const myProjects = [
     ],
     codeUrl: "https://github.com/anetakasprzak/countries-API",
   },
-  {
-    id: 28,
-    img: "./assets/newsletter-sign-up-with-success-screenshot.png",
-    details: [
-      "React Hook Form",
-      "Input validation",
-      "Error handling",
-      "Success message",
-      "Dynamic data",
-      "Responsive design",
-    ],
-    codeUrl:
-      "https://github.com/anetakasprzak/FM-newsletter-sign-up-with-success-message",
-  },
 ];
 
 export default function Projects() {
@@ -128,7 +139,10 @@ export default function Projects() {
 function ProjectCard({ img, details, codeUrl }) {
   return (
     <div className="project__card">
-      <img className="project__img" src={img} />
+      <div className="img__container">
+        <img className="project__img" src={img} />
+      </div>
+
       <div className="project__details">
         {details && (
           <ul>

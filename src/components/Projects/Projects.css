@@ -33,6 +33,16 @@
   text-decoration: none;
   border-bottom: 1px solid var(--text);
 }
+.img__container {
+  height: 22rem;
+}
+
+.img__container > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .project__img {
   border-radius: 8px;
