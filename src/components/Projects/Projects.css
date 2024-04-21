@@ -28,11 +28,6 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.project__card a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px solid var(--text);
-}
 .img__container {
   height: 22rem;
 }
@@ -54,12 +49,21 @@
   justify-content: space-between;
 }
 
-.view-code {
+.view-code,
+.view-live {
   transition: all 0.2s;
   display: inline-block;
 }
 
-.view-code:hover {
+.view-code a,
+.view-live a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--text);
+}
+
+.view-code:hover,
+.view-live:hover {
   transform: scale(1.1);
 }
 

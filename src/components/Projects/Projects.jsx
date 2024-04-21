@@ -13,6 +13,7 @@ const myProjects = [
       "Router",
     ],
     codeUrl: "https://github.com/anetakasprzak/FM-photosnap-multi-page-website",
+    liveUrl: "https://fm-photosnap-multi-page-website-d4cakght6.vercel.app",
   },
   {
     id: 24,
@@ -129,6 +130,7 @@ export default function Projects() {
             img={project.img}
             details={project.details}
             codeUrl={project.codeUrl}
+            liveUrl={project.liveUrl}
           />
         ))}
       </div>
@@ -136,7 +138,7 @@ export default function Projects() {
   );
 }
 
-function ProjectCard({ img, details, codeUrl }) {
+function ProjectCard({ img, details, codeUrl, liveUrl }) {
   return (
     <div className="project__card">
       <div className="img__container">
@@ -152,10 +154,24 @@ function ProjectCard({ img, details, codeUrl }) {
           </ul>
         )}
 
-        <div className="view-code">
-          <a href={codeUrl} target="_blank" rel="noreferrer noopener">
-            View code
-          </a>
+        <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+          <div className="view-code">
+            <a href={codeUrl} target="_blank" rel="noreferrer noopener">
+              View code
+            </a>
+          </div>
+          {liveUrl && (
+            <div className="view-live">
+              <a
+                className="view-live"
+                href={liveUrl}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                View live
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>
