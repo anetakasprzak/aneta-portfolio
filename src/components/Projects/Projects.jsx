@@ -13,7 +13,7 @@ const myProjects = [
       "Router",
     ],
     codeUrl: "https://github.com/anetakasprzak/FM-photosnap-multi-page-website",
-    liveUrl: "https://fm-photosnap-multi-page-website-d4cakght6.vercel.app",
+    liveUrl: "https://fm-photosnap-multi-page-website.vercel.app/",
   },
   {
     id: 24,
