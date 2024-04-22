@@ -106,7 +106,8 @@ const myProjects = [
       "Responsive design",
     ],
     codeUrl:
-      "https://github.com/anetakasprzak/FM-interactive-card-details-form-react",
+      "https://github.com/anetakasprzak/fm-interactive-card-details-form-react",
+    liveUrl: "https://fm-interactive-card-details-form-react-gold.vercel.app/",
   },
   {
     id: 27,
