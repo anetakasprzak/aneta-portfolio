@@ -93,6 +93,7 @@ const myProjects = [
       "Responsive design",
     ],
     codeUrl: "https://github.com/anetakasprzak/your-shopping-list-react",
+    liveUrl: "https://countries-api-qgh7.vercel.app/",
   },
   {
     id: 26,
