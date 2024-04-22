@@ -42,6 +42,8 @@ const myProjects = [
     ],
     codeUrl:
       "https://github.com/anetakasprzak/FM-newsletter-sign-up-with-success-message",
+    liveUrl:
+      "https://fm-newsletter-sign-up-with-success-message-liart.vercel.app/",
   },
   {
     id: 20,
