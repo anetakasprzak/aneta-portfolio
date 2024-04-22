@@ -12,7 +12,7 @@ const myProjects = [
       "Responsive design",
       "Router",
     ],
-    codeUrl: "https://github.com/anetakasprzak/FM-photosnap-multi-page-website",
+    codeUrl: "https://github.com/anetakasprzak/fm-photosnap-multi-page-website",
     liveUrl: "https://fm-photosnap-multi-page-website.vercel.app/",
   },
   {
@@ -26,7 +26,7 @@ const myProjects = [
       "Dark/Light mode",
       "Responsive design",
     ],
-    codeUrl: "https://github.com/anetakasprzak/FM-github-user-search-app-react",
+    codeUrl: "https://github.com/anetakasprzak/fm-github-user-search-app-react",
     liveUrl: "https://fm-github-user-search-app-react.vercel.app/",
   },
   {
@@ -41,7 +41,7 @@ const myProjects = [
       "Responsive design",
     ],
     codeUrl:
-      "https://github.com/anetakasprzak/FM-newsletter-sign-up-with-success-message",
+      "https://github.com/anetakasprzak/fm-newsletter-sign-up-with-success-message",
     liveUrl:
       "https://fm-newsletter-sign-up-with-success-message-liart.vercel.app/",
   },
@@ -118,7 +118,8 @@ const myProjects = [
       "Error handling",
       "Responsive design",
     ],
-    codeUrl: "https://github.com/anetakasprzak/countries-API",
+    codeUrl: "https://github.com/anetakasprzak/countries-api",
+    liveUrl: "https://countries-api-ochre-beta.vercel.app/",
   },
 ];
 
