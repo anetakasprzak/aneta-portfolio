@@ -81,7 +81,8 @@ const myProjects = [
       "Responsive design",
     ],
     codeUrl:
-      "https://github.com/anetakasprzak/FM-fylo-data-storage-component-react",
+      "https://github.com/anetakasprzak/fm-fylo-data-storage-component-react",
+    liveUrl: "https://fm-fylo-data-storage-component-react.vercel.app/",
   },
   {
     id: 25,
