@@ -27,6 +27,7 @@ const myProjects = [
       "Responsive design",
     ],
     codeUrl: "https://github.com/anetakasprzak/FM-github-user-search-app-react",
+    liveUrl: "https://fm-github-user-search-app-react.vercel.app/",
   },
   {
     id: 28,
