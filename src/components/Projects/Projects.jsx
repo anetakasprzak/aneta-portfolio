@@ -72,6 +72,7 @@ const myProjects = [
     img: "./assets/advice-generator-screenshot.png",
     details: ["API", "Input validation", "Error handling", "Responsive design"],
     codeUrl: "https://github.com/anetakasprzak/FM-advice-generator-app-react",
+    liveUrl: "https://fm-advice-generator-app-react-zeta.vercel.app/",
   },
   {
     id: 23,
