@@ -50,7 +50,8 @@ const myProjects = [
     img: "./assets/single-page-design-portfolio-2.png",
     details: ["Form", "Modal", "Grid", "Responsive design"],
     codeUrl:
-      "https://github.com/anetakasprzak/FM-single-page-design-portfolio-react",
+      "https://github.com/anetakasprzak/fm-single-page-design-portfolio-react",
+    liveUrl: "https://fm-single-page-design-portfolio-react.vercel.app/",
   },
   {
     id: 22,
