@@ -63,7 +63,8 @@ const myProjects = [
       "Responsive design",
     ],
     codeUrl:
-      "https://github.com/anetakasprzak/FM-component-with-signup-form-react",
+      "https://github.com/anetakasprzak/fm-component-with-signup-form-react",
+    liveUrl: "https://fm-component-with-signup-form-react.vercel.app/",
   },
   {
     id: 21,
