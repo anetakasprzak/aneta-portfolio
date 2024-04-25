@@ -3,6 +3,20 @@ import "./Projects.css";
 
 const myProjects = [
   {
+    id: 18,
+    img: "./assets/clock-location-app.png",
+    details: [
+      "Random quotes API",
+      "IPbase API",
+      "WorldTime API",
+      "Grid",
+      "Responsive design",
+      "Day/Night mode",
+    ],
+    codeUrl: "https://github.com/anetakasprzak/fm-clock-app-react",
+    liveUrl: "https://fm-clock-app-react.vercel.app/",
+  },
+  {
     id: 19,
     img: "./assets/photosnap-multipage.png",
     details: [
@@ -66,13 +80,6 @@ const myProjects = [
     codeUrl:
       "https://github.com/anetakasprzak/fm-component-with-signup-form-react",
     liveUrl: "https://fm-component-with-signup-form-react.vercel.app/",
-  },
-  {
-    id: 21,
-    img: "./assets/advice-generator-screenshot.png",
-    details: ["API", "Input validation", "Error handling", "Responsive design"],
-    codeUrl: "https://github.com/anetakasprzak/FM-advice-generator-app-react",
-    liveUrl: "https://fm-advice-generator-app-react-zeta.vercel.app/",
   },
   {
     id: 23,
