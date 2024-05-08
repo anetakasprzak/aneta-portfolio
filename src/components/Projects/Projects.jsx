@@ -3,6 +3,19 @@ import "./Projects.css";
 
 const myProjects = [
   {
+    id: 17,
+    img: "./assets/ecommerce-product-page.png",
+    details: [
+      "Image carousel",
+      "Modal",
+      "Cart notification",
+      "Sidebar navigation",
+      "Responsive design",
+    ],
+    codeUrl: "https://github.com/anetakasprzak/fm-ecommerce-product-page",
+    liveUrl: "https://fm-ecommerce-product-page-gamma.vercel.app/",
+  },
+  {
     id: 18,
     img: "./assets/clock-location-app.png",
     details: [
