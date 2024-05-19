@@ -109,15 +109,15 @@ const myProjects = [
   },
   {
     id: 25,
-    img: "./assets/your-shopping-list-screenshot.png",
+    img: "./assets/todo-app.png",
     details: [
       "CRUD operations",
-      "Input data",
-      "Local storage",
+      "Drag and drop",
+      "Filters",
       "Responsive design",
     ],
-    codeUrl: "https://github.com/anetakasprzak/your-shopping-list-react",
-    liveUrl: "https://countries-api-qgh7.vercel.app/",
+    codeUrl: "https://github.com/anetakasprzak/fm-todo-app",
+    liveUrl: "https://fm-todo-app-psi.vercel.app/",
   },
   {
     id: 26,
