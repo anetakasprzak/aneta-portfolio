@@ -33,14 +33,16 @@ const myProjects = [
     id: 19,
     img: "./assets/photosnap-multipage.png",
     details: [
+      "Next.js",
       "React Hook Form",
       "Mobile Navigation",
       "Grid",
       "Responsive design",
-      "Router",
     ],
-    codeUrl: "https://github.com/anetakasprzak/fm-photosnap-multi-page-website",
-    liveUrl: "https://fm-photosnap-multi-page-website.vercel.app/",
+    codeUrl:
+      "https://github.com/anetakasprzak/fm-photosnap-multi-page-website-next",
+    liveUrl:
+      "https://fm-photosnap-multi-page-website-next-41q2k46ra.vercel.app/",
   },
   {
     id: 24,

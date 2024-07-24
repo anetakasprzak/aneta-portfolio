@@ -6,9 +6,10 @@ const skills = [
   { id: 3, icon: "devicon-sass-original" },
   { id: 4, icon: "devicon-javascript-plain" },
   { id: 5, icon: "devicon-react-original-wordmark" },
-  { id: 6, icon: "devicon-vscode-plain-wordmark" },
-  { id: 7, icon: "devicon-github-original-wordmark" },
-  { id: 8, icon: "devicon-figma-plain" },
+  { id: 6, icon: "devicon-nextjs-original-wordmark" },
+  { id: 7, icon: "devicon-vscode-plain-wordmark" },
+  { id: 8, icon: "devicon-github-original-wordmark" },
+  { id: 9, icon: "devicon-figma-plain" },
 ];
 
 export default function Skills() {
