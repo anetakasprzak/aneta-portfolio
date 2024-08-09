@@ -21,8 +21,7 @@ const myProjects = [
     ],
     codeUrl:
       "https://github.com/anetakasprzak/fm-photosnap-multi-page-website-next",
-    liveUrl:
-      "https://fm-photosnap-multi-page-website-next-41q2k46ra.vercel.app/",
+    liveUrl: "https://fm-photosnap-multi-page-website-next.vercel.app/",
   },
   {
     id: 18,
