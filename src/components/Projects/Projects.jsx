@@ -142,19 +142,19 @@ const myProjects = [
       "https://github.com/anetakasprzak/fm-interactive-card-details-form-react",
     liveUrl: "https://fm-interactive-card-details-form-react-gold.vercel.app/",
   },
-  {
-    id: 27,
-    img: "./assets/countries-api-screenshot.png",
-    details: [
-      "API",
-      "Filtering",
-      "Grid",
-      "Error handling",
-      "Responsive design",
-    ],
-    codeUrl: "https://github.com/anetakasprzak/countries-api",
-    liveUrl: "https://countries-api-ochre-beta.vercel.app/",
-  },
+  // {
+  //   id: 27,
+  //   img: "./assets/countries-api-screenshot.png",
+  //   details: [
+  //     "API",
+  //     "Filtering",
+  //     "Grid",
+  //     "Error handling",
+  //     "Responsive design",
+  //   ],
+  //   codeUrl: "https://github.com/anetakasprzak/countries-api",
+  //   liveUrl: "https://countries-api-ochre-beta.vercel.app/",
+  // },
 ];
 
 export default function Projects() {
