@@ -3,31 +3,11 @@ import "./Projects.css";
 
 const myProjects = [
   {
-    id: 17,
-    img: "./assets/ecommerce-product-page.png",
-    details: [
-      "Image carousel",
-      "Modal",
-      "Cart notification",
-      "Sidebar navigation",
-      "Responsive design",
-    ],
-    codeUrl: "https://github.com/anetakasprzak/fm-ecommerce-product-page",
-    liveUrl: "https://fm-ecommerce-product-page-gamma.vercel.app/",
-  },
-  {
-    id: 18,
-    img: "./assets/clock-location-app.png",
-    details: [
-      "Random quotes API",
-      "IPbase API",
-      "WorldTime API",
-      "Grid",
-      "Responsive design",
-      "Day/Night mode",
-    ],
-    codeUrl: "https://github.com/anetakasprzak/fm-clock-app-react",
-    liveUrl: "https://fm-clock-app-react.vercel.app/",
+    id: 16,
+    img: "./assets/ecommerce-product-list.png",
+    details: ["Typescript", "Tailwind", "Modal", "Responsive design"],
+    codeUrl: "https://github.com/anetakasprzak/fm-product-list-cart",
+    liveUrl: "https://fm-product-list-cart.vercel.app/",
   },
   {
     id: 19,
@@ -45,6 +25,20 @@ const myProjects = [
       "https://fm-photosnap-multi-page-website-next-41q2k46ra.vercel.app/",
   },
   {
+    id: 18,
+    img: "./assets/clock-location-app.png",
+    details: [
+      "Random quotes API",
+      "IPbase API",
+      "WorldTime API",
+      "Grid",
+      "Responsive design",
+      "Day/Night mode",
+    ],
+    codeUrl: "https://github.com/anetakasprzak/fm-clock-app-react",
+    liveUrl: "https://fm-clock-app-react.vercel.app/",
+  },
+  {
     id: 24,
     img: "./assets/github-user-search-app-screenshot.png",
     details: [
@@ -57,6 +51,19 @@ const myProjects = [
     ],
     codeUrl: "https://github.com/anetakasprzak/fm-github-user-search-app-react",
     liveUrl: "https://fm-github-user-search-app-react.vercel.app/",
+  },
+  {
+    id: 17,
+    img: "./assets/ecommerce-product-page.png",
+    details: [
+      "Image carousel",
+      "Modal",
+      "Cart notification",
+      "Sidebar navigation",
+      "Responsive design",
+    ],
+    codeUrl: "https://github.com/anetakasprzak/fm-ecommerce-product-page",
+    liveUrl: "https://fm-ecommerce-product-page-gamma.vercel.app/",
   },
   {
     id: 28,
