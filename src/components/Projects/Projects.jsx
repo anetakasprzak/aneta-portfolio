@@ -3,6 +3,19 @@ import "./Projects.css";
 
 const myProjects = [
   {
+    id: 15,
+    img: "./assets/galleria-slide-show.png",
+    details: [
+      "Typescript",
+      "Styled Components",
+      "Slider",
+      "Modal",
+      "Responsive design",
+    ],
+    codeUrl: "https://github.com/anetakasprzak/fm-galleria-slideshow-site",
+    liveUrl: "https://fm-galleria-slideshow-site-blond.vercel.app/",
+  },
+  {
     id: 16,
     img: "./assets/ecommerce-product-list.png",
     details: ["Typescript", "Tailwind", "Modal", "Responsive design"],
