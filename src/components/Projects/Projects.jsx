@@ -4,6 +4,19 @@ import "./Projects.css";
 const myProjects = [
   {
     id: 15,
+    img: "./assets/mortgage-calculator.png",
+    details: [
+      "Typescript",
+      "Styled Components",
+      "React Hook Form",
+      "Responsive design",
+    ],
+    codeUrl:
+      "https://github.com/anetakasprzak/fm-mortgage-repayment-calculator",
+    liveUrl: "https://fm-mortgage-repayment-calculator-9uunog1i7.vercel.app/",
+  },
+  {
+    id: 15,
     img: "./assets/galleria-slide-show.png",
     details: [
       "Typescript",
