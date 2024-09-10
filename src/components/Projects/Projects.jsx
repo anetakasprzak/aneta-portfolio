@@ -13,7 +13,7 @@ const myProjects = [
     ],
     codeUrl:
       "https://github.com/anetakasprzak/fm-mortgage-repayment-calculator",
-    liveUrl: "https://fm-mortgage-repayment-calculator-9uunog1i7.vercel.app/",
+    liveUrl: "https://fm-mortgage-repayment-calculator.vercel.app/",
   },
   {
     id: 15,
