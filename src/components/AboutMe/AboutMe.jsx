@@ -10,7 +10,11 @@ export default function AboutMe() {
         development. <br />I did JavaScript and React courses, spent countless
         hours making side projects to practice and focus to turn my passion into
         full time job as a React Developer.
+        <br />
+        <br />
+        <p>Currently learning TypeScript and NextJS.</p>
       </p>
+
       <p>
         Beyond the screen, you&apos;ll find me in the kitchen, cooking and
         eating is my second big passion.
