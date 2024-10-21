@@ -3,6 +3,19 @@ import "./Projects.css";
 
 const myProjects = [
   {
+    id: 10,
+    img: "./assets/arch-studio-1.png",
+    details: [
+      "Next.js",
+      "Styled Components",
+      "React Hook Form",
+      "Responsive design",
+    ],
+    codeUrl:
+      "https://github.com/anetakasprzak/fm-arch-studio-multi-page-website",
+    liveUrl: "https://fm-arch-studio-multi-page-website.vercel.app/",
+  },
+  {
     id: 15,
     img: "./assets/mortgage-calculator.png",
     details: [
