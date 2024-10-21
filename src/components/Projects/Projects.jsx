@@ -149,6 +149,7 @@ const myProjects = [
       "Drag and drop",
       "Filters",
       "Responsive design",
+      "Local storage",
     ],
     codeUrl: "https://github.com/anetakasprzak/fm-todo-app",
     liveUrl: "https://fm-todo-app-psi.vercel.app/",
